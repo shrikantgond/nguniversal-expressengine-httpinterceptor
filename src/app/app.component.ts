@@ -14,7 +14,7 @@ import { ApiService } from './api.service';
 })
 export class AppComponent implements OnInit {
 
-  title = 'app';
+  title = 'Angular SSR';
   data = '';
 
   constructor(protected apiService: ApiService) {}
